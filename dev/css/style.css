@@ -1,0 +1,56 @@
+.baground { 
+  background: url(../images/backgroundm.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+.logo{
+  font-family: Roboto Black;
+  color: #FF7BAC;
+  font-size: 90px;
+  font-weight: 10;
+  margin-bottom: -20px;
+}
+.info{
+  font-family: Roboto Light;
+  color: #666666;
+  font-size: 25px;
+  font-weight: 10;
+}
+.search{
+  margin-top: 15px;
+  max-width: 700px;
+}
+div {
+  background: rgba(76, 175, 80, 0.0) /* Green background with 30% opacity */
+}
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+  color: fff;
+}
+
+.form-control:focus {
+  background: #212529;
+  color: fff;
+}
+
+footer {
+  background: #212529;
+}
