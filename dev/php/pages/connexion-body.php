@@ -1,9 +1,9 @@
 <div class="container-fluid mt-4">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-5">
 				<img src="dev/images/login.jpg" class="img-fluid">
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-7">
 				<div class="card">
 				<form action="login.php" method="post">
 					<div class="card-header">

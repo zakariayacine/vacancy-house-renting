@@ -27,7 +27,7 @@
 				      <td>Imediate</td>
 				      <td> '.$article['prix'].' </td>
 				      <td> en attente pour signature</td>
-				      <td><div class="btn-group" role="group"><a class="btn btn-primary btn-sm" href="view.php?id='.$article['id'].'">Telecharger contrat</a>
+				      <td><div class="btn-group" role="group"><a class="btn btn-primary btn-sm" href="contrat.php?id='.$article['id'].'">consulter contrat</a>
 				      <a class="btn btn-danger btn-sm" href="dismiss.php?id='.$article['id'].'">Annuler</a>
 				      <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">information importante</button></div></td>
 				    </tr>';

@@ -9,7 +9,7 @@
 		    		<option value="0">Wilaya</option>
             		<?php include $_SESSION['composants']."wilaya.php" ?>
           		</select>
-		      <input class="form-control me-2" type="search" name="text" placeholder="Titre" aria-label="Search">
+		      <input class="form-control me-2" type="search" name="type" placeholder="Type de bien" aria-label="Search">
 		      <button class="btn btn-outline-success" type="submit">rechercher</button>
 		    </form>
 		  </div>
