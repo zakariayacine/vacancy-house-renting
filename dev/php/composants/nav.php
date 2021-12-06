@@ -16,7 +16,7 @@
       <?php if (isset($_SESSION['role'])) {
         echo '<ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="'.$_SESSION['href'].'home/profil.php">'.$_SESSION['name'].'</a>
+          <a class="nav-link" href="'.$_SESSION['href'].'home">'.$_SESSION['name'].'</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="'.$_SESSION['href'].'home/logout.php">deconnexion</a>

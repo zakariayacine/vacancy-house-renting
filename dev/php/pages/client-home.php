@@ -7,11 +7,15 @@
 						<h5>Menu principal</h5>
 					</div>
 					<div class="card-body">
-							<a class="btn btn-success mb-3 py-4" href="produit/create.php">Deposez un produit</a>
-							<a class="btn btn-success mb-3 py-4" href="produit/index.php">liste de mes produits</a>		
-							<a class="btn btn-success mb-3 py-4" href="reservations/index.php">Mes reservations</a>
-							<a class="btn btn-success mb-3 py-4" href="rdv/index.php">rendez-vous de visite</a>	
-							<a class="btn btn-warning mb-3 py-4" href="profile.php">reglages</a>
+						<div class="d-grid gap-2">
+							<a class="btn btn-success mb-3 py-4" href="produit/create.php"><b>Deposez un produit</b></a>
+							<br>
+							<a class="btn btn-success mb-3 py-4" href="produit/index.php"><b>liste de mes produits	</b></a>	
+							<br>	
+							<a class="btn btn-success mb-3 py-4" href="reservations/index.php"><b>Mes reservations	</b></a>
+							<br>
+							<a class="btn btn-success mb-3 py-4" href="rdv/index.php"><b>rendez-vous de visite	</b></a>
+						</div>
 					</div>
 				</div>
 			</div>

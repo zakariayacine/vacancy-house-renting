@@ -9,7 +9,7 @@
           <select class="form-control mb-2" name="wilaya">
             <?php include $_SESSION['composants']."wilaya.php" ?>
           </select>
-          <input class="form-control mb-2" type="date" placeholder="Periode" aria-label="prix">
+          <input class="form-control mb-2" type="date" name="date">
           <button class="btn btn-secondary mt-3" type="submit">Rechercher</button>
           <a href="" class="btn btn-secondary mt-3">Populaire</a>
         </form> 

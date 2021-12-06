@@ -1,5 +1,6 @@
 <?php
 session_start(); //demarrer une session
+$_SESSION['pwd'] = getcwd(); //Retourne le dossier de travail courant
 /* retourné les composant du site avec include */
 include "env.php"; //recuperer les configurations de l'environnement 
 include $_SESSION['composants']."header.php";

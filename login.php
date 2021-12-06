@@ -1,6 +1,7 @@
 <?php
 session_start();
-$_SESSION['role'] = "client";
-$_SESSION['name'] = "user";
-var_dump($_POST)
+$_SESSION['role'] = "directeur";
+$_SESSION['name'] = "zakaria";
+include "env.php";
+header('Location:'.$_SESSION['href'].'home');
 ?>
