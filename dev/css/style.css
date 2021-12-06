@@ -32,8 +32,8 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
-footer {
-  background: #212529;
+nav {
+  background: #212529 !important;
 }
 @media only screen and (max-width: 600px){
   .logo{

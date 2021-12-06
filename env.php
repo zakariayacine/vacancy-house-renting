@@ -1,5 +1,6 @@
 <?php 
 /* Création fichier environement */
+$_SESSION['href'] = "/location/";
 $_SESSION['composants']=$_SESSION['pwd']."/dev/php/composants/";
 $_SESSION['pages']=$_SESSION['pwd']."/dev/php/pages/";
 $_SESSION['controlleurs']=$_SESSION['pwd']."/dev/php/controlleurs/";
