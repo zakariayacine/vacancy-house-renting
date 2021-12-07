@@ -7,7 +7,7 @@
 				<div class="card">
 				<form action="login.php" method="post">
 					<div class="card-header">
-						<h5><a href="index" class="btn btn-success">retour</a> Formulaire de connexion</h5> 		
+						<h5><a href="index" class="btn btn-success"><i class="fas fa-arrow-left"></i></a> Formulaire de connexion</h5> 		
 					</div>
 					<div class="card-body">
 						<div class="row">

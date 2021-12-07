@@ -2,6 +2,7 @@
 <div class="container-fluid">
 	<div class="container mt-5">
 		<div class="card">
+			<h5><a href="<?php echo $_SESSION['href'].'home' ?>" class="btn btn-success"><i class="fas fa-arrow-left"></i></a></h5>
 			<div class="card-body">
 				<div class="row">
 					<div class="col-md-6">

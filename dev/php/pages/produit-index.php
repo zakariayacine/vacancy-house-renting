@@ -1,7 +1,7 @@
 <div class="container-fluid mt-3">
 		<div class="card">
 			<div class="card-header">
-				<h5><a href="<?php echo $_SESSION['href'].'home' ?>" class="btn btn-success">retour</a>	Liste de vos produits</h5>
+				<h5><a href="<?php echo $_SESSION['href'].'home' ?>" class="btn btn-success"><i class="fas fa-arrow-left"></i></a>	Liste de vos produits</h5>
 			</div>
 			<div class="card-body">
 				<table class="table table-hover">
@@ -23,9 +23,9 @@
 				      <td> '.$article['titre'].' </td>
 				      <td> '.$article['description'].' </td>
 				      <td> '.$article['prix'].' </td>
-				      <td><div class="btn-group" role="group"><a class="btn btn-primary btn-sm" href="view.php?id='.$article['id'].'">afficher</a>
-				      <a class="btn btn-success btn-sm" href="edit.php?id='.$article['id'].'">modifier</a>
-				      <a class="btn btn-danger btn-sm" href="delete.php?id='.$article['id'].'">supprimer</a></div></td>
+				      <td><div class="btn-group" role="group"><a class="btn btn-primary btn-sm" href="view.php?id='.$article['id'].'"><i class="fas fa-eye"></i></a>
+				      <a class="btn btn-success btn-sm" href="edit.php?id='.$article['id'].'"><i class="far fa-edit"></i></a>
+				      <a class="btn btn-danger btn-sm" href="delete.php?id='.$article['id'].'"><i class="fas fa-trash-alt"></i></a></div></td>
 				    </tr>';
 				  		}
 				  	?>

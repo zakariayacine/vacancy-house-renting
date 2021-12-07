@@ -4,7 +4,7 @@
 			<div class="card-body">
 				<form>
 					<div class="row">
-						<div class="col-md-12"><h5><a href="<?php echo $_SESSION['href'].'home' ?>" class="btn btn-success">retour</a> informations général du bien</h5><hr></div>
+						<div class="col-md-12"><h5><a href="<?php echo $_SESSION['href'].'home' ?>" class="btn btn-success"><i class="fas fa-arrow-left"></i></a> informations général du bien</h5><hr></div>
 						<div class="col-md-6">
 							<label class="form-label">Titre</label>
 							<input type="text" class="form-control" name="titre">

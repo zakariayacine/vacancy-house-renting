@@ -7,7 +7,7 @@
 				<div class="card">
 				<form action="useradd.php" method="post">
 					<div class="card-header">
-						<h5><a href="index" class="btn btn-success">retour</a> Formulaire d'inscription</h5> 		
+						<h5><a href="index" class="btn btn-success"><i class="fas fa-arrow-left"></i></a> Formulaire d'inscription</h5> 		
 					</div>
 					<div class="card-body">
 						<div class="row">

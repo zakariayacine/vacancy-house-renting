@@ -27,7 +27,7 @@
 	</div>
  	</div>
  	<div class="col-md-5">
- 		<a href="/location/home/reservations/" class="btn btn-secondary">retour</a>
+ 		<a href="/location/home/reservations/" class="btn btn-secondary"><i class="fas fa-arrow-left"></i></a>
  		<button class="btn btn-secondary">telecharger le contrat</button>
  	</div>
  </div>

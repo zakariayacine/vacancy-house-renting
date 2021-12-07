@@ -1,7 +1,7 @@
 <div class="container-fluid mt-3">
 		<div class="card">
 			<div class="card-header">
-				<h5><a href="<?php echo $_SESSION['href'].'home' ?>" class="btn btn-success">retour</a>	Liste de vos produits</h5>
+				<h5><a href="<?php echo $_SESSION['href'].'home' ?>" class="btn btn-success"><i class="fas fa-arrow-left"></i></a>	Liste de vos rendez-vous</h5>
 			</div>
 			<div class="card-body">
 				<table class="table table-hover">
@@ -24,12 +24,11 @@
 				      <th scope="row"> '.$article['id'].' </th>
 				      <td> '.$article['titre'].' </td>
 				      <td>12/15/2021</td>
-				      <td>13h00</td>
+				      <td>en attente</td>
 				      <td>en attente</td>
 				      <td>en cours de traitement</td>
-				      <td><div class="btn-group" role="group"><button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#informations">point de rendez-vous</button>
-				      <div class="btn-group" role="group"><button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#reservation">reservez</button>
-				      <a class="btn btn-danger btn-sm" href="dismiss.php?id='.$article['id'].'">Annuler</a>
+				      <td><div class="btn-group" role="group"><button type="button" class="btn btn-success btn-sm" data-mdb-toggle="modal" data-mdb-target="#reservation"><i class="far fa-calendar-plus"></i> reservez</button><button type="button" class="btn btn-warning btn-sm" data-mdb-toggle="modal" data-mdb-target="#informations"><i class="fas fa-map-marked-alt"></i></button> 
+				      <a class="btn btn-danger btn-sm" href="dismiss.php?id='.$article['id'].'"><i class="fas fa-trash-alt"></i></a>
 				      </div></td>
 				    </tr>';
 				  		}
@@ -50,7 +49,7 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Fermer</button>
       </div>
     </div>
   </div>
@@ -76,7 +75,7 @@
       </div>
       <div class="modal-footer">
       	<button type="submit" class="btn btn-success" form="FORMID">Reservez</button>
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Fermer</button>
       </div>
     </div>
   </div>

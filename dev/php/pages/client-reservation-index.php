@@ -1,7 +1,7 @@
 <div class="container-fluid mt-3">
 		<div class="card">
 			<div class="card-header">
-				<h5><a href="<?php echo $_SESSION['href'].'home' ?>" class="btn btn-success">retour</a>	Liste de vos produits</h5>
+				<h5><a href="<?php echo $_SESSION['href'].'home' ?>" class="btn btn-success"><i class="fas fa-arrow-left"></i></a>	Liste de vos reservations</h5>
 			</div>
 			<div class="card-body">
 				<table class="table table-hover">
@@ -27,9 +27,10 @@
 				      <td>Imediate</td>
 				      <td> '.$article['prix'].' </td>
 				      <td> en attente pour signature</td>
-				      <td><div class="btn-group" role="group"><a class="btn btn-primary btn-sm" href="contrat.php?id='.$article['id'].'">consulter contrat</a>
-				      <a class="btn btn-danger btn-sm" href="dismiss.php?id='.$article['id'].'">Annuler</a>
-				      <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">information importante</button></div></td>
+				      <td><div class="btn-group" role="group"><a class="btn btn-primary btn-sm" href="contrat.php?id='.$article['id'].'"><i class="fas fa-eye"></i></a>
+				      <a class="btn btn-danger btn-sm" href="dismiss.php?id='.$article['id'].'"><i class="fas fa-trash-alt"></i></a>
+				      <button type="button" class="btn btn-warning btn-sm" data-mdb-toggle="modal"
+  data-mdb-target="#staticBackdrop"><i class="fas fa-info-circle"></i></button></div></td>
 				    </tr>';
 				  		}
 				  	?> 
@@ -40,12 +41,12 @@
 	</div>
 
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header" style="background-color: #ffc107 !important;">
         <h5 class="modal-title" id="exampleModalLabel">Informations importantes</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div>
@@ -53,7 +54,7 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Fermer</button>
       </div>
     </div>
   </div>

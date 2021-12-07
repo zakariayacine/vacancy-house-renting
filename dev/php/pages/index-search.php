@@ -3,13 +3,13 @@
 		<nav class="navbar navbar-light bg-light">
 		  <div class="container-fluid">
 		    <form class="d-flex" action="search.php" method="get">
-		    	<input class="form-control me-2" type="search" placeholder="Prix minimum la nuité" aria-label="prix" name="prixmin">
-		    	<input class="form-control me-2" type="search" placeholder="Prix maximum la nuité" aria-label="prix" name="prixmax">
-		    	<select class="form-control me-2" name="wilaya">
+		    	<input class="form-control sizeinputsearch inputborder" type="search" placeholder="Prix minimum la nuité" aria-label="prix" name="prixmin">
+		    	<input class="form-control sizeinputsearch inputborder" type="search" placeholder="Prix maximum la nuité" aria-label="prix" name="prixmax">
+		    	<select class="form-control sizeinputsearch inputborder" name="wilaya">
 		    		<option value="0">Wilaya</option>
             		<?php include $_SESSION['composants']."wilaya.php" ?>
           		</select>
-		      <input class="form-control me-2" type="search" name="type" placeholder="Type de bien" aria-label="Search">
+		      <input class="form-control sizeinputsearch inputborder" type="search" name="type" placeholder="Type de bien" aria-label="Search">
 		      <button class="btn btn-outline-success" type="submit">rechercher</button>
 		    </form>
 		  </div>

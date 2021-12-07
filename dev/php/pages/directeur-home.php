@@ -10,13 +10,12 @@
 						<div class="d-grid gap-2">
 							<a class="btn btn-success mb-3 py-4" href="reservations/index.php"><b>Tout les contrats</b></a>
 							<a class="btn btn-success mb-3 py-4" href="reservations/admin/attente.php"><b>Contrat en attente</b></a>
-							<br>
-							<a class="btn btn-success mb-3 py-4" href="reservations/admin/demandes.php"><b>Demandes de contrat</b></a>	
-							<br>	
+							</div>
+							<div class="d-grid gap-2">
+							<a class="btn btn-success mb-3 py-4" href="reservations/admin/demandes.php"><b>Demandes de contrat</b></a>		
 							<a class="btn btn-success mb-3 py-4" href="reservations/admin/valide.php"><b>Contrats valide</b></a>
-							<br>
 							<a class="btn btn-success mb-3 py-4" href="reservations/admin/annuler.php"><b>Contrat annuler</b></a>
-						</div>
+						
 					</div>
 				</div>
 			</div>

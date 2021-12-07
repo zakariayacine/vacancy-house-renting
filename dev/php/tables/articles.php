@@ -36,14 +36,5 @@ $articles = [
 			'contact'=>'+213 123 456',
 			'image'=>'dev/images/produit.jpg'
 				],
-				$article5 = [
-					'id'=>'5',
-			'titre'=>'Article 5',
-			'imageDescription'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut justo vitae tellus rutrum ornare. Suspendisse pellentesque iaculis lacinia..',
-			'prix'=>'100.00',
-			'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut justo vitae tellus rutrum ornare. Suspendisse pellentesque iaculis lacinia..',
-			'contact'=>'+213 123 456',
-			'image'=>'dev/images/produit.jpg'
-				],
 			];
 return $articles;
