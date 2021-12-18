@@ -1,34 +1,30 @@
 <?php
-require('connexion.php');
-	$columns = array("Volvo", "BMW", "Toyota");
-	$number = count($columns);
-	$nameTable = "zak";
- 	function requete($columns,$number){
- 		ob_start(); 
-		for ($i=0; $i < $number; $i++) { 
-		echo ''.$columns[$i].'=:'.$columns[$i].' , ';
-		}
-		$result = ob_get_contents(); //Grab output
-		ob_end_clean();
-		$result = substr($result,0,-3);
-		return $result;
-	}
-	$output = requete($columns,$number);
-	
-	function bindvalue($columns,$requete,$values){
-		$requete->bindValue(':EMAIL','$email');
-		$requete->execute();
-	}
-	function selectOne($nameTable){
-	$requete = $db->prepare("SELECT * FROM $nameTable WHERE ID_USER=:ID_USER");
-	$result = bindvalue($requete);
-	return $result;
-	}
-	
+require('connexion.php'); //parametres de connexion PDO 
+require('query.php'); // retourne les fonctions PDO (select, select one, ext...) les fonction seront documenté
+require('users.php'); //renvoie les variable du model concerné (methodologie sera documenté)
 
+$var = postconverter($inputName,$_POST);
+$selectOneresult = selectOne($db,$table,$columns,$var);
 
-				foreach ($columns as $column) {
-			$column['name']=:$columns['name'],
-		} where*/
-
+//vérifier si la variable est rempli (le resultat renvoi true ou false)
+if($selectOneresult){
+	echo $selectOneresult[0];
+	echo "<br>";
+	echo $selectOneresult[1];
+	echo "<br>";
+	echo $selectOneresult[2];
+	echo "<br>";
+	echo $selectOneresult[3];
+	echo "<br>";
+	echo $selectOneresult[5];
+	echo "<br>";
+	echo $selectOneresult[6];
+	echo "<br>";
+	echo $selectOneresult[7];
+	echo "<br>";
+}
+//si on ne trouve rien il renvoie ce message
+else echo 'makach';
 ?>
+
+		
